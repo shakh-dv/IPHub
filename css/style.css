@@ -257,6 +257,7 @@ q::after {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
 }
 
 
@@ -811,6 +812,8 @@ footer {
     .promo__wrapper {
         gap: 25px;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     q::before {
         top: -14%;
@@ -827,7 +830,7 @@ footer {
         line-height: 26px;
     }
     .promo__img img {
-        max-width: 220px;
+        max-width: 300px;
     }
     .promo__buttons {
         gap: 19px;
@@ -838,9 +841,9 @@ footer {
         font-size: 9px 
     }
     .consultation {
-        font-size: 9px;
-        width: 158px;
-        height: 47px;
+        font-size: 10px;
+        width: 164px;
+        height: 57px;
     }
 
     .navbar__contact {
@@ -908,6 +911,8 @@ footer {
 
     .consult__wrapper {
         gap: 29px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .consult__img img {
@@ -937,5 +942,39 @@ footer {
     }
     .promo__title {
         font-size: 36px;
+    }
+
+    .navbar__contact {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .service__wrapper {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .FQA__quiz {
+        padding: 16px;
+    }
+
+    .quiz__item {
+        padding: 7px 9px;
+    }
+
+    .IPhub__list {
+        flex-wrap: wrap;
+        row-gap: 32px;
+    }
+    
+    .IPhub__about, #f__logo {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .footer__end {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        row-gap: 10px;
     }
  }
